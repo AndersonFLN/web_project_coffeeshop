@@ -1,0 +1,119 @@
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  flex-direction: row;
+  margin: 0 auto;
+  font-family: "Inter";
+  font-size: 16px;
+  line-height: 20px;
+}
+/*
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  box-sizing: border-box;
+  align-items: stretch;
+  background-image: url("../images/background_header.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+span {
+  color: rgb(8, 127, 206);
+}
+
+.nav {
+  justify-content: space-between;
+  display: flex;
+}
+
+.nav__logo {
+  height: 100px;
+  width: 100px;
+}
+
+.nav__links {
+  margin-top: 20px;
+  display: flex;
+  column-gap: 50px;
+  list-style-type: none;
+  padding-right: 50px;
+  align-items: center;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__title {
+  max-width: 635px;
+  font-size: 62px;
+  line-height: 76px;
+  font-weight: 500;
+  margin-top: 140px;
+}
+
+.header__description {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  max-width: 515px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.header__image {
+  max-width: 675px;
+}
+
+.header__content__coment {
+  text-wrap: nowrap;
+  z-index: 1;
+  padding-left: 50px;
+}
+
+.footer__header {
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.footer__list {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+
+.recipes {
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  box-sizing: border-box;
+  align-items: stretch;
+  background-image: url("../images/background_recipes.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: #073a52;
+  opacity: 1;
+  padding: 50px 50px;
+}
+*/
