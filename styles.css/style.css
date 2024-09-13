@@ -125,17 +125,15 @@
   line-height: 20px;
   color: #838383;
   margin-top: auto;
+  margin-bottom: 40px;
 }
 
 .header__footer_paragraph {
-  margin: 0 80px 40px 80px;
+  margin: 0 80px 0px 80px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
-}
-
-.header__footer_paragraph p {
 }
 
 .recipes {
