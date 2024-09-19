@@ -114,36 +114,41 @@
         </section>
 
         <section id="reservation" class="reservation">
-          <title class="reservation__title">Reserva uma mesa</title>
+          <h1 class="reservation__title">Reserva uma mesa</h1>
 
-          <form class="reservation__form">
-            <fieldset class="fieldset__content">
-              <label for="name" class="label">Nome*</label>
-              <input type="text" placeholder="Nome" class="form__item" />
-
-              <label for="number" class="label">Número de convidados*</label>
+          <form class="form reservation__form">
+            <fieldset class="reservation__fieldset_content">
+              <label for="convidados" class="label"
+                >Número de convidados*</label
+              >
               <input
+                id="convidados"
                 type="number"
                 min="1"
                 max="8"
                 placeholder="1-8"
-                class="form__item"
+                class="reservation__item"
               />
 
               <label for="date" class="label">Data e hora*</label>
-              <input type="datetime-local" class="form__item" />
+              <input
+                id="date"
+                type="datetime-local"
+                class="reservation__item"
+              />
 
               <label for="email" class="label">Seu e-mail*</label>
               <input
+                id="email"
                 type="email"
                 placeholder="email@email.com"
-                class="form__item"
+                class="reservation__item"
               />
               <button type="submit" class="form__button">
                 Reservar uma mesa
               </button>
 
-              <label for="concordo" class="form__item-checkbox_label">
+              <label for="concordo" class="form__label">
                 <input
                   id="concordo"
                   type="checkbox"

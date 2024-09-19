@@ -228,10 +228,7 @@
   margin-bottom: 120px;
 }
 
-.form__item {
-  height: 60px;
-  padding: 15px 0 15px 20px;
-  margin-bottom: 32px;
+.form {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -239,7 +236,13 @@
   line-height: 30px;
 }
 
-.form__item-checkbox_label {
+.reservation__item {
+  height: 60px;
+  padding: 15px 0 15px 20px;
+  margin-bottom: 32px;
+}
+
+.form__label {
   border-radius: 2px;
   padding-top: 32px;
   text-align: center;
@@ -279,11 +282,10 @@
   line-height: 20px;
 }
 
-.fieldset__content {
+.reservation__fieldset_content {
   display: flex;
   flex-direction: column;
   max-width: 385px;
   width: 100%;
   border: none;
-  padding: 0px;
 }
