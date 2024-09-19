@@ -117,7 +117,7 @@
 
           <form class="form reservation__form">
             <fieldset class="form__fieldset">
-              <label for="convidados" class="label"
+              <label for="convidados" class="form__label__espaco"
                 >Número de convidados*</label
               >
               <input
@@ -129,14 +129,14 @@
                 class="reservation__item"
               />
 
-              <label for="date" class="label">Data e hora*</label>
+              <label for="date" class="form__label__espaco">Data e hora*</label>
               <input
                 id="date"
                 type="datetime-local"
                 class="reservation__item"
               />
 
-              <label for="email" class="label">Seu e-mail*</label>
+              <label for="email" class="form__label__espaco">Seu e-mail*</label>
               <input
                 id="email"
                 type="email"
@@ -160,7 +160,43 @@
         </section>
       </main>
 
-      <footer id="contact" class="footer"></footer>
+      <footer class="footer" id="contact">
+        <div class="footer__columns">
+          <div class="footer__column">
+            <img
+              class="footer__logo"
+              src="./images/logo_coffeeshop_light.svg"
+              alt="Logotipo da cafeteria"
+            />
+          </div>
+          <nav class="nav__link footer__column footer__column_content_social">
+            <h3 class="footer__column__social-heading">Mídia social</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a class="footer__column-link" href="#">
+                  <img
+                    src="images/facebook_white.svg"
+                    class="footer__social-icon"
+                    alt="facebook logo"
+                  />
+                  Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__column-link" href="#">
+                  <img
+                    src="images/instagram_white.svg"
+                    class="footer__social-icon"
+                    alt="instagram logo"
+                  />
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <p class="footer__copyright">© 2024 Anderson Costa</p>
+      </footer>
     </div>
   </body>
 </html>
