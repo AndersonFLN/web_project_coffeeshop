@@ -18,7 +18,7 @@
   flex: auto;
 }
 
-.footer__column_content_social {
+.footer__column__social {
   flex: initial;
   margin-left: 80px;
 }
