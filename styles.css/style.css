@@ -283,7 +283,7 @@
   line-height: 20px;
 }
 
-.reservation__fieldset_content {
+.reservation__fieldset__content {
   display: flex;
   flex-direction: column;
   max-width: 385px;
