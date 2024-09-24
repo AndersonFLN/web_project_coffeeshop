@@ -1,7 +1,6 @@
 .reservation {
   display: flex;
   flex-direction: column;
-  /*height: 100vh;*/
   background-image: url("../images/background_reservation.svg");
   background-position: center;
   background-repeat: no-repeat;
@@ -28,6 +27,11 @@
 
 .reservation__item {
   height: 60px;
-  padding: 15px 0 15px 20px;
+  padding: 0px 15px 0px 15px;
   margin-bottom: 32px;
+  border: 1p solid #838383;
+}
+
+.reservation__item::placeholder {
+  color: #838383;
 }

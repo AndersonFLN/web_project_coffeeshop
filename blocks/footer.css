@@ -84,6 +84,7 @@
   color: #c1c1c1;
 }
 
-.footer__column__social__heading:hover {
+.footer__column__social__heading:hover,
+.footer__column__social__heading:focus {
   color: #c1c1c1;
 }
