@@ -29,7 +29,7 @@
   height: 60px;
   padding: 0px 15px 0px 15px;
   margin-bottom: 32px;
-  border: 1p solid #838383;
+  border: 1px solid #838383;
 }
 
 .reservation__item::placeholder {
