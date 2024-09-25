@@ -14,6 +14,7 @@
   position: absolute;
   border-radius: 50%;
   margin: -125px 0 0 -45px;
+  clip: rect(125px, 360px, 360px, 45px);
 }
 
 .footer__content {
