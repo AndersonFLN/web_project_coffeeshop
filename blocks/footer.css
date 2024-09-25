@@ -7,12 +7,22 @@
   background-color: #0a2850;
 }
 
+.footer__circle {
+  width: 340px;
+  height: 340px;
+  background-color: #2f80ed;
+  position: absolute;
+  border-radius: 50%;
+  margin: -125px 0 0 -45px;
+}
+
 .footer__content {
   display: flex;
   color: #ffffff;
   align-items: flex-start;
   padding-bottom: 108px;
   padding: 60px 80px 108px 80px;
+  z-index: 3;
 }
 .footer__column {
   flex: auto;
@@ -80,11 +90,11 @@
   padding-left: 80px;
 }
 
-.footer__column-link:hover {
+.footer__column-link:hover,
+.footer__column-link:focus {
   color: #c1c1c1;
 }
 
-.footer__column__social__heading:hover,
-.footer__column__social__heading:focus {
+.footer__column__social__heading:hover {
   color: #c1c1c1;
 }
